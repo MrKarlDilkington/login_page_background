@@ -18,7 +18,7 @@ class Controller extends \Concrete\Core\Package\Package
 
     public function getPackageDescription()
     {
-        return t('Customize the login page background image.');
+        return t('Customize the login and welcome page background image.');
     }
 
     public function getPackageName()
