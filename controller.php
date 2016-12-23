@@ -14,7 +14,7 @@ class Controller extends \Concrete\Core\Package\Package
 
     protected $pkgHandle = 'login_page_background';
     protected $appVersionRequired = '5.7.5rc1';
-    protected $pkgVersion = '0.9';
+    protected $pkgVersion = '0.9.1';
 
     public function getPackageDescription()
     {
