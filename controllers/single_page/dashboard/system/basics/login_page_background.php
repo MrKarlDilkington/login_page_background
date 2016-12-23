@@ -37,7 +37,7 @@ class LoginPageBackground extends DashboardPageController
                     if (is_object($imageObject)) {
                         $background_image_url = $imageObject->getRelativePath();
                         Config::save('concrete.urls.background_url', $background_image_url);
-                        Config::save('concrete.white_label.background_url', true);
+                        Config::save('concrete.white_label.background_url', $background_image_url);
                         Config::save('login_page_background.background_image', $background_image);
                     }
 
